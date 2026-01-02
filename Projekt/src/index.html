@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmissionenImBlick</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" href="./img/Forest.png" type="image/png" />
+  </head>
+  <body class="bg-neutral-100 text-gray-800 font-sans">
+    <header class="bg-white shadow-md">
+      <div class="max-w-6xl mx-auto flex items-center justify-center py-6 px-4">
+        <img
+          src="./img/Logo.png"
+          class="w-2/3 md:w-1/3"
+          alt="EmissionenImBlick Logo"
+        />
+      </div>
+      <section class="bg-green-300 py-19 px-4">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex justify-center gap-6 mb-10">
+            <a
+              href="#intro"
+              class="text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150 font-semibold"
+            >
+              Startseite
+            </a>
+
+            <a
+              href="#"
+              class="text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150 font-semibold"
+            >
+              Über uns
+            </a>
+
+            <a
+              href="#"
+              class="text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150 font-semibold"
+            >
+              Kontakt
+            </a>
+          </div>
+
+          <div class="text-center">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight text-white">
+              Emissionen im Blick behalten
+            </h1>
+
+            <p class="mt-6 text-xl md:text-2xl font-medium text-green-800">
+              Transparenz über CO₂-Emissionen von Unternehmen und Ländern
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Einleitungstext -->
+    <section id="intro" class="mb-12 p-10 bg-blue-200 shadow-lg text-center">
+      <h2 class="text-5xl font-extrabold text-blue-900 mb-6">
+        Die Welt der Emissionen verstehen
+      </h2>
+
+      <p class="text-lg text-gray-800 leading-relaxed max-w-4xl mx-auto">
+        Willkommen bei <strong>EmissionenImBlick.de</strong> – Ihrer zentralen
+        Anlaufstelle für transparente und verständliche Informationen über
+        globale CO₂-Emissionen. In einer Zeit, in der Klimaschutz immer
+        wichtiger wird, bieten wir Ihnen präzise Daten, aktuelle News und
+        fundierte Analysen zu Ländern und Unternehmen weltweit.
+      </p>
+
+      <p class="text-lg text-gray-800 leading-relaxed max-w-4xl mx-auto mt-4">
+        Unsere Mission ist es, datengestützte Entscheidungen zu fördern, die
+        größten Herausforderungen sichtbar zu machen und Fortschritte
+        nachvollziehbar darzustellen. Behalten Sie die globale Entwicklung im
+        Blick – klar, verständlich und verlässlich.
+      </p>
+    </section>
+
+    <!-- Zwei Spalten für Hauptbereich  News + Navigation -->
+    <div class="max-w-6xl mx-auto px-4 mt-8 flex flex-col md:flex-row gap-6">
+      <nav class="bg-white p-4 rounded-xl shadow-2xl w-2/3 md:w-1/3">
+        <h1 class="text-3xl font-bold text-blue-800">Navigation</h1>
+
+        <p class="mt-2 mb-4 text-gray-700 text-sm">
+          Suche auf EmissionenImBlick
+        </p>
+
+        <div class="mb-8">
+          <div
+            class="relative flex items-center border border-gray-300 rounded-full p-3 shadow-sm"
+          >
+            <input
+              class="w-full focus:outline-none"
+              placeholder="Emissionen, Land, Unternehmen"
+            />
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="space-y-3">
+          <a
+            href="#news"
+            class="flex items-center gap-4 text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150"
+          >
+            <img src="./img/News-Icon.png" class="h-6 w-6" />
+            <span class="text-lg font-semibold">Aktuelle News</span>
+          </a>
+
+          <a
+            href="#karte"
+            class="flex items-center gap-4 text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150"
+          >
+            <img src="./img/Map-Icon.png" class="h-6 w-6" />
+            <span class="text-lg font-semibold">Interaktive Karte</span>
+          </a>
+
+          <a
+            href="#Co2-Tabelle"
+            class="flex items-center gap-4 text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150"
+          >
+            <img src="./img/Table-Icon.png" class="h-6 w-6" />
+            <span class="text-lg font-semibold">CO₂-Emissionen</span>
+          </a>
+
+          <a
+            href="#tabelle"
+            class="flex items-center gap-4 text-gray-800 hover:text-blue-700 p-2 rounded-lg transition duration-150"
+          >
+            <img src="./img/Globe-Icon.png" class="h-6 w-6" />
+            <span class="text-lg font-semibold">CO₂-Länder & Unternehmen </span>
+          </a>
+        </div>
+      </nav>
+      <!-- News Bereich-->
+      <section
+        id="news"
+        class="w-full md:flex-1 bg-white p-6 rounded-xl shadow-lg mt-4 md:mt-0 order-2"
+      >
+        <h2
+          class="text-4xl font-bold text-blue-800 mb-8 border-l-4 border-blue-600 pl-4"
+        >
+          Aktuelle News
+        </h2>
+
+        <div class="space-y-8">
+          <article class="p-4 rounded-lg">
+            <h3 class="text-2xl font-bold text-gray-900">
+              EU beschließt verschärfte Klimaziele bis 2030
+            </h3>
+            <p class="text-gray-500 mt-1 text-sm">Gestern, 14:30 Uhr</p>
+            <p class="mt-3 text-gray-700">
+              Die Europäische Union hat sich auf ein neues Maßnahmenpaket
+              geeinigt, das eine Reduzierung der Treibhausgasemissionen um
+              mindestens 55% bis 2030 vorsieht.
+            </p>
+          </article>
+
+          <article class="p-4 rounded-lg">
+            <h3 class="text-2xl font-bold text-gray-900">
+              Technologie-Gigant veröffentlicht Null-Emissions-Plan
+            </h3>
+            <p class="text-gray-500 mt-1 text-sm">Heute, 09:00 Uhr</p>
+            <p class="mt-3 text-gray-700">
+              Ein führendes Tech-Unternehmen kündigt an, bis 2040 CO₂-neutral zu
+              sein. Wir analysieren die Glaubwürdigkeit der zugesagten Schritte
+              und Investitionen.
+            </p>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- Beginn Interaktive Karte -->
+    <section
+      id="karte"
+      class="mt-20 px-8 py-12 bg-white rounded-2xl shadow-2xl"
+    >
+      <h2 class="text-4xl font-extrabold text-dark-blue mb-4 text-center">
+        Aktuelle Weltkarte der CO₂-Emissionen
+      </h2>
+
+      <p
+        class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto text-center mb-10"
+      >
+        Erkunden Sie die globalen CO₂-Ausstöße des letzten Jahres. Die Karte
+        zeigt, welche Regionen besonders stark emittieren.
+      </p>
+
+      <section class="flex flex-col items-center">
+        <!-- Karte -->
+        <div
+          class="max-w-5xl mx-auto overflow-hidden rounded-xl shadow-lg border border-gray-300"
+        >
+          <img
+            src="./img/Weltkarte.png"
+            class="w-full"
+            alt="Weltkarte der CO2 Emissionen"
+          />
+        </div>
+
+        <!-- Legende für Balken -->
+        <div class="w-full max-w-md mt-6" id="Co2-Tabelle">
+          <div class="font-medium text-center mb-4">CO₂-Emissionen</div>
+
+          <div class="space-y-6">
+            <!-- 1 -->
+            <div class="text-center">
+              <div class="w-full bg-gray-200 h-3 rounded-full relative">
+                <div
+                  class="absolute left-0 top-0 h-3 rounded-full"
+                  style="width: 95%; background: #660000"
+                ></div>
+              </div>
+              <div class="mt-2 text-sm text-gray-700">
+                Ausstoß: <strong>12 Mio. t CO₂</strong>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="text-center">
+              <div class="w-full bg-gray-200 h-3 rounded-full relative">
+                <div
+                  class="absolute left-0 top-0 h-3 rounded-full"
+                  style="width: 80%; background: #cc0000"
+                ></div>
+              </div>
+              <div class="mt-2 text-sm text-gray-700">
+                Ausstoß: <strong>10 Mio. t CO₂</strong>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="text-center">
+              <div class="w-full bg-gray-200 h-3 rounded-full relative">
+                <div
+                  class="absolute left-0 top-0 h-3 rounded-full"
+                  style="width: 60%; background: #ff0000"
+                ></div>
+              </div>
+              <div class="mt-2 text-sm text-gray-700">
+                Ausstoß: <strong>8 Mio. t CO₂</strong>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="text-center">
+              <div class="w-full bg-gray-200 h-3 rounded-full relative">
+                <div
+                  class="absolute left-0 top-0 h-3 rounded-full"
+                  style="width: 40%; background: #ff6666"
+                ></div>
+              </div>
+              <div class="mt-2 text-sm text-gray-700">
+                Ausstoß: <strong>6 Mio. t CO₂</strong>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="text-center">
+              <div class="w-full bg-gray-200 h-3 rounded-full relative">
+                <div
+                  class="absolute left-0 top-0 h-3 rounded-full"
+                  style="width: 20%; background: #ffcccc"
+                ></div>
+              </div>
+              <div class="mt-2 text-sm text-gray-700">
+                Ausstoß: <strong>&lt;4 Mio. t CO₂</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mini-Hinweis -->
+        <p class="text-sm text-gray-500 text-center mt-4 p-4">
+          *Daten basieren auf globalen Emissionsschätzungen des Vorjahres.*
+        </p>
+      </section>
+    </section>
+
+    <!-- Tabellenbereich -->
+    <section
+      id="tabelle"
+      class="mt-20 px-8 py-12 bg-white rounded-2xl shadow-2xl border-gray-200"
+    >
+      <h2 class="text-3xl font-extrabold text-dark-blue mb-6 text-center">
+        CO₂-Emissionen von Ländern & Unternehmen
+      </h2>
+
+      <!-- Filter -->
+      <div class="flex flex-col gap-4 mb-6 items-center">
+        <input
+          id="filterLand"
+          type="text"
+          placeholder="Land filtern..."
+          class="px-4 py-2 border rounded-lg shadow-sm w-60"
+        />
+
+        <input
+          id="filterUnternehmen"
+          type="text"
+          placeholder="Unternehmen filtern..."
+          class="px-4 py-2 border rounded-lg shadow-sm w-60"
+        />
+      </div>
+
+      <!-- Tabelle -->
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse mx-auto">
+          <thead>
+            <tr class="bg-gray-100 text-left cursor-pointer">
+              <th class="p-3 border" data-sort="land">Land</th>
+              <th class="p-3 border" data-sort="unternehmen">Unternehmen</th>
+              <th class="p-3 border" data-sort="co2">CO₂ (Mio. t)</th>
+              <th class="p-3 border" id="sortCo2Header">CO₂ Sortieren</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CO₂-Daten -->
+    <script>
+      let data = [
+        { land: "Deutschland", unternehmen: "AutoTech AG", co2: 4.5 },
+        { land: "Deutschland", unternehmen: "ChemPro GmbH", co2: 7.5 },
+        { land: "USA", unternehmen: "EnergyCorp", co2: 9.5 },
+        { land: "USA", unternehmen: "SteelWorks", co2: 10.1 },
+        { land: "China", unternehmen: "MegaIndustries", co2: 6.7 },
+        { land: "China", unternehmen: "DragonSteel", co2: 8.5 },
+        { land: "Frankreich", unternehmen: "EcoPower SA", co2: 2.1 },
+        { land: "Japan", unternehmen: "NipponTech", co2: 3.4 },
+      ];
+
+      // Tabellen-Rendering
+      function renderTable() {
+        const tbody = document.getElementById("tableBody");
+
+        const filterLand = document
+          .getElementById("filterLand")
+          .value.toLowerCase();
+        const filterUnternehmen = document
+          .getElementById("filterUnternehmen")
+          .value.toLowerCase();
+
+        const filtered = data.filter(
+          (row) =>
+            row.land.toLowerCase().includes(filterLand) &&
+            row.unternehmen.toLowerCase().includes(filterUnternehmen)
+        );
+
+        tbody.innerHTML = filtered
+          .map(
+            (row) => `
+      <tr class="hover:bg-gray-50 transition">
+        <td class="p-3 border">${row.land}</td>
+        <td class="p-3 border">${row.unternehmen}</td>
+        <td class="p-3 border">${row.co2}</td>
+      </tr>
+    `
+          )
+          .join("");
+      }
+
+      renderTable();
+
+      // Filter-Auslöser
+      document
+        .getElementById("filterLand")
+        .addEventListener("input", renderTable);
+      document
+        .getElementById("filterUnternehmen")
+        .addEventListener("input", renderTable);
+
+      // Sortierung (Nur CO2-Wert)
+      let sortDirection = 1; // 1 = Aufsteigend, -1 = Absteigend
+
+      document.getElementById("sortCo2Header").addEventListener("click", () => {
+        data.sort((a, b) => {
+          // Sortiert numerisch (a.co2 - b.co2) und multipliziert mit der Richtung
+          // Bei sortDirection = 1: (4.5 - 7.5) * 1 = -3 -> a kommt vor b (Aufsteigend)
+          // Bei sortDirection = -1: (4.5 - 7.5) * -1 = 3 -> b kommt vor a (Absteigend)
+          return (a.co2 - b.co2) * sortDirection;
+        });
+
+        // Richtung für den nächsten Klick umkehren
+        sortDirection = -sortDirection;
+
+        // Tabelle mit den neu sortierten Daten rendern
+        renderTable();
+      });
+    </script>
+
+    <footer class="bg-indigo-900 text-gray-300 py-10 mt-16">
+      <div
+        class="max-w-6xl mx-auto px-4 flex justify-between items-center border-t border-indigo-700 pt-6"
+      >
+        <p class="space-x-4 text-sm font-semibold">
+          <a href="#" class="hover:text-sky-300">Impressum</a>
+          <a href="#" class="hover:text-sky-300">Datenschutz</a>
+          <a href="#" class="hover:text-sky-300">Kontakt</a>
+        </p>
+        <div class="text-sm text-gray-500">
+          © 2024 EmissionenImBlick.de – Alle Rechte vorbehalten.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
